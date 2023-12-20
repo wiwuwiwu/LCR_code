@@ -1,3 +1,6 @@
+/*
+    用数组que来实现BFS中的队列，并用left和right判断队列是否空
+*/
 int findCircleNum(int** isConnected, int isConnectedSize, int* isConnectedColSize) {
     int cities = isConnectedSize;
     int visited[cities];
